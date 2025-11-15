@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>HOOK_DEF</TOOL>
+   <SHORTTEXT>Report SAP Enhancement</SHORTTEXT>
+   <BADI_DATA>
+    <PGMID>R3TR</PGMID>
+    <OBJ_NAME>SHL2</OBJ_NAME>
+    <OBJ_TYPE>FUGR</OBJ_TYPE>
+    <MAIN_TYPE>FUGR</MAIN_TYPE>
+    <MAIN_NAME>SHL2</MAIN_NAME>
+    <PROGRAM>SAPLSHL2</PROGRAM>
+    <DEF_HOOKS>
+     <ENH_HOOK_DEF_EXT>
+      <EXTID>1</EXTID>
+      <FULL_NAME>\PR:SAPLSHL2\EX:ZRSAP_ENH</FULL_NAME>
+      <ENHMODE>R</ENHMODE>
+      <DEF_UNIT>
+       <INT_TYPE>FF</INT_TYPE>
+       <INT_NAME>HELP_START</INT_NAME>
+       <METHTYPE>F</METHTYPE>
+       <METHOD_NAME>HELP_START</METHOD_NAME>
+      </DEF_UNIT>
+     </ENH_HOOK_DEF_EXT>
+    </DEF_HOOKS>
+   </BADI_DATA>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>07C14158C7591FE0839680889A1D04F5</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAE=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>07C14158C7591FE0839680889A1D04F5</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Report SAP Enhancement</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHS</OBJECT>
+     <OBJ_NAME>ZRSAP_ENH</OBJ_NAME>
+     <CONCEPT>07C14158C7591FE0839680889A1D04F5</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>
