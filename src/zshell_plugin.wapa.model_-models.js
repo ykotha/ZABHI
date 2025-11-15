@@ -1,0 +1,3 @@
+sap.ui.define(["sap/ui/model/json/JSONModel","sap/ui/Device"],function(e,n){"use strict";return{createDeviceModel:function(){var t=new e(n);t.setDefaultBindingMode("OneWay");return t},createServiceModel:function(){var n=[{url:"<Sharepoint URL>",name:"Go +
+to Sharepoint"},{url:"<Support page URL>",name:"Go to Support page"},{url:"<Chatbot app URL>",name:"Open ChatBot Helper"}];var t=new e(n);t.setDefaultBindingMode("OneWay");return t}}});                                                                      
+//# sourceMappingURL=models.js.map                                                                                                                                                                                                                             

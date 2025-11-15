@@ -1,0 +1,3 @@
+{"version":3,"file":"models.js","names":["sap","ui","define","JSONModel","Device","createDeviceModel","oModel","setDefaultBindingMode","createServiceModel","oServices","url","name"],"sources":["models-dbg.js"],"mappings":"AAAAA,IAAIC,GAAGC,OAAO,CACV,8BAC+
+A,iBAEJ,SAAUC,EAAWC,GACjB,aAEA,MAAO,CAKHC,kBAAmB,WACf,IAAIC,EAAS,IAAIH,EAAUC,GAC3BE,EAAOC,sBAAsB,UAC7B,OAAOD,CACX,EAEAE,mBAAoB,WACzB,IAAIC,EAAY,CAAC,CAChBC,IAAO,mBACPC,KAAQ,oBACN,CACFD,IAAO,qBACPC,KAAQ,sBACN,CACFD,IAAO,oBACPC,KAAQ,wBAGT,IAAIL,EAAS,IAAIH,+
+EAAUM,GAC3BH,EAAOC,sBAAsB,UAC7B,OAAOD,CACR,EAIF","ignoreList":[]}                                                                                                                                                                                              
